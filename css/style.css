@@ -13592,7 +13592,7 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
         border: none;
         box-shadow: 1px 1px 5px #84888d, -1px -1px 4px #84888d;
     }
-    s::before, strike::before {
+    /* s::before, strike::before {
       top: 80% !important;
       background: red;
       opacity: .7;
@@ -13605,7 +13605,7 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
       white-space: nowrap;
       display: block;
       transform: rotate(-15deg);
-  }
+  } */
   }
 
   .items {
