@@ -13558,7 +13558,7 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
   #portfolio-flters li:last-child {
     margin-right: 0;
   }
-  @media screen and (min-width: 0px) and (max-width: 900px) {
+  /* @media screen and (min-width: 0px) and (max-width: 900px) {
     s::before, strike::before {
       top: 80% !important;
       background: red;
@@ -13573,7 +13573,7 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
       display: block;
       transform: rotate(-15deg);
   }
-  }
+  } */
   @media screen and (min-width: 0px) and (max-width: 500px) {
      #portfolio-flters li {
       cursor: pointer;
