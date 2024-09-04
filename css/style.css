@@ -13449,10 +13449,6 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
   }
 
 @media (max-width: 767.98px) {
-  .box
-/* {
-	padding-top: 174px !important;
-} */
   .OverlapThisSection {
     margin-left: 38px;
     position: absolute;
