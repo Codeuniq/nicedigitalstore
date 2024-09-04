@@ -8749,7 +8749,7 @@ h1, h2, h3, h4, h5,
               }
               .stroketext{
                 font-size: 58px;
-                -webkit-text-stroke: 1.5px white;
+                -webkit-text-stroke: 1px white;
                 -webkit-text-fill-color: transparent;
                 font-family: "Museo W01 900";
               }
@@ -11846,18 +11846,18 @@ footer p a:hover{
         height: 0;
         border-style: solid;
         border-width: 0 0 8px 8px;
-        border-color: transparent transparent #960cbd transparent; }
+        border-color: transparent transparent white transparent; }
       .project-wrap .img .price:before {
         width: 0;
         right: -8px;
         height: 0;
         border-style: solid;
         border-width: 8px 0 0 8px;
-        border-color: transparent transparent transparent #960cbd; }
+        border-color: transparent transparent transparent white; }
   .project-wrap.hotel .img {
     height: 320px; }
     .sec-product{
-      background: url("../images/lightgrey.webp")  top no-repeat fixed;
+      background: url("../images/diginice.webp")  top no-repeat fixed;
     background-size: cover;
     padding: 7em 0;
     }
@@ -13528,12 +13528,22 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
   }
 
   .dis-p{
-    color: #343434;
+    /* color: #343434; */
+    /* -webkit-text-stroke: 1px black; */
+    -webkit-text-fill-color: #343434;
+
+    /* -webkit-text-stroke: 1px black; */
+
     font-family: Emirates bold;
     font-size: 14px;
    }
   .deli-p{
-    color: black;
+    -webkit-text-stroke: 1px black;
+     -webkit-text-fill-color: white;
+            /* font-family: "FSP DEMO - Mercenary Ultra"; */
+            /* font-family: "Museo W01 900"; */
+            /* font-family: "ConvexDT-Bold"; */
+            /* font-family: "Museo W01 900" !important; */
     font-size: 50px;
     font-weight: 700;
     font-family: "Sheepman W03 Bold Slanted" !important;
@@ -13653,7 +13663,7 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
     }
     .deli-p{
       color: black;
-      font-size: 35px;
+      font-size: 40px;
       font-weight: 700;
       font-family: "Sheepman W03 Bold Slanted" !important;
      }
