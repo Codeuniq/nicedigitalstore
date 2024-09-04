@@ -13470,7 +13470,7 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
   .boximg{
     height: 276px;
     width: auto;
-    margin-top: -50px;
+    margin-top: 72px;
     }
     .box_title {
       font-size: 20px;
