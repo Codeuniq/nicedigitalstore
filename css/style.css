@@ -13457,6 +13457,12 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
     height: 122px;
     width: 201px;
   }
+  .project-wrap .img .price {
+    position: absolute;
+    top: 0px;
+    left: 8px;
+    background: white;
+  }
   .boximg{
     height: 276px;
     width: auto;
@@ -13500,7 +13506,7 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
     .project-wrap .img {
       display: block;
       width: 100%;
-      height: 185px;
+      height: 316px;
       position: relative;
       z-index: 0; }
       .hight{
@@ -13663,8 +13669,8 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
     }
     .deli-p{
       color: black;
-      font-size: 40px;
-      font-weight: 700;
+      font-size: 35px;
+      font-weight: 900 !important;
       font-family: "Sheepman W03 Bold Slanted" !important;
      }
      .dis-p{
@@ -13705,7 +13711,7 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
     z-index: 1;
     background: url(../images/diginice.webp) no-repeat scroll center center !important;
     background-size: cover !important;
-    /* height: 350px; */
+    height: 750px;
   }
   }
 
@@ -13930,3 +13936,6 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
     }
     
   }
+
+
+  
