@@ -11859,7 +11859,7 @@ footer p a:hover{
     .sec-product{
       /* background: url("../images/lightgrey.webp")  top no-repeat fixed; */
     /* background-size: cover; */
-    padding: 7em 0;
+    padding: 7em 0 !important;
     }
     .sec-product::before {
       content: '';
@@ -13450,9 +13450,9 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
 
 @media (max-width: 767.98px) {
   .box
-{
+/* {
 	padding-top: 174px !important;
-}
+} */
   .OverlapThisSection {
     margin-left: 38px;
     position: absolute;
@@ -13674,7 +13674,7 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
     .deli-p{
       -webkit-text-stroke: 1px black;
      -webkit-text-fill-color: white;
-      font-size: 39px;
+      font-size: 35px;
       font-weight: 900 !important;
       font-family: "Sheepman W03 Bold Slanted" !important;
      }
