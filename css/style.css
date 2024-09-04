@@ -13938,4 +13938,7 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
   }
 
 
-  
+  .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y !important;
+    touch-action: pan-y !important;
+}
