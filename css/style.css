@@ -11857,8 +11857,8 @@ footer p a:hover{
   .project-wrap.hotel .img {
     height: 320px; }
     .sec-product{
-      background: url("../images/diginice.webp")  top no-repeat fixed;
-    background-size: cover;
+      /* background: url("../images/diginice.webp")  top no-repeat fixed; */
+    /* background-size: cover; */
     padding: 7em 0;
     }
     .sec-product::before {
@@ -13700,6 +13700,13 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
       display: block;
       transform: rotate(-15deg);
   } */
+  .secimage{
+    position: relative;
+    z-index: 1;
+    background: url(../images/diginice.webp) no-repeat scroll center center !important;
+    background-size: cover !important;
+    /* height: 350px; */
+  }
   }
 
   .items {
@@ -13898,6 +13905,11 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
     .acceso{
       margin-left: 22px;
     }
+    .sec-product{
+      background: url("../images/diginice.webp")  top no-repeat fixed !important;
+    background-size: cover !important;
+    padding: 7em 0 !important;
+    }
   }
 
   /*Tablet Query*/
@@ -13911,4 +13923,10 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
     .acceso{
       margin-left: 22px;
     }
+    .sec-product{
+      background: url("../images/diginice.webp")  top no-repeat fixed !important;
+    background-size: cover !important;
+    padding: 7em 0 !important;
+    }
+    
   }
