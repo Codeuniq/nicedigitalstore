@@ -13890,7 +13890,19 @@ s.straight::before, strike.straight::before{transform: rotate(0deg);left:-1%;wid
   .air{
     display: none;
   }
+  .homeappl{
+    display: none;
+  }
   .speaker{
+    display: none;
+  }
+  .watchs{
+    display: none;
+  }
+  .gamings{
+    display: none;
+  }
+  .computers{
     display: none;
   }
   .pro-t{

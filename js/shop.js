@@ -224,22 +224,24 @@ $(document).ready(function() {
   $('.showtv').click(function() {
       $('.smarttv').show();
       $('.air').hide();
+      $('.homeappl').hide();
   });
 });
 
 $(document).ready(function() {
-  $('.showac').click(function() {
+  $('.homeapp').click(function() {
+    $('.homeappl').show();
       $('.air').hide();
       $('.smarttv').hide();
   });
 });
 
-// $(document).ready(function() {
-//   $('.showac').click(function() {
-//       $('.air').show();
-//       $('.smarttv').hide();
-//   });
-// });
+$(document).ready(function() {
+  $('.showac').click(function() {
+      $('.air').show();
+      $('.smarttv').hide();
+  });
+});
 $(document).ready(function() {
   $('.homeall').click(function() {
       $('.air').hide();
@@ -253,15 +255,60 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('.accessall').click(function() {
       $('.speaker').hide();
-      // $('.smarttv').hide();
       $('.productItem').show();
-      // $('.smarttv').hide();
+      $('.watchs').hide();
+      $('.gamings').hide();
+      $('.computers').hide();
   });
 });
 
 $(document).ready(function() {
   $('.showspeak').click(function() {
       $('.speaker').show();
-      // $('.smarttv').hide();
+      $('.watchs').hide();
+      $('.gamings').hide();
+      $('.computers').hide();
+  });
+});
+
+$(document).ready(function() {
+  $('.mobacc').click(function() {
+      $('.speaker').hide();
+      $('.watchs').hide();
+      $('.gamings').hide();
+      $('.computers').hide();
+  });
+});
+$(document).ready(function() {
+  $('.compacc').click(function() {
+      $('.speaker').hide();
+      $('.watchs').hide();
+      $('.gamings').hide();
+      $('.computers').show();
+  });
+});
+$(document).ready(function() {
+  $('.airpods').click(function() {
+      $('.speaker').hide();
+      $('.watchs').hide();
+      $('.gamings').hide();
+      $('.computers').hide();
+  });
+});
+$(document).ready(function() {
+  $('.gamingacc').click(function() {
+      $('.speaker').hide();
+      $('.watchs').hide();
+      $('.gamings').show();
+      $('.computers').hide();
+  });
+});
+
+$(document).ready(function() {
+  $('.smartwatch').click(function() {
+      $('.speaker').hide();
+      $('.watchs').show();
+      $('.gamings').hide();
+      $('.computers').hide();
   });
 });
