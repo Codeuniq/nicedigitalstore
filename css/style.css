@@ -4845,13 +4845,15 @@ a.close.disabled {
   align-items: center;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   padding: 1rem;
   border-top: 1px solid #dee2e6;
   border-bottom-right-radius: 0.3rem;
-  border-bottom-left-radius: 0.3rem; }
+  border-bottom-left-radius: 0.3rem; 
+}
   .modal-footer > :not(:first-child) {
-    margin-left: .25rem; }
+    margin-left: .25rem; 
+  }
   .modal-footer > :not(:last-child) {
     margin-right: .25rem; }
 
