@@ -105,6 +105,10 @@
         }
     });
 
+
+	$(window).load(function(){        
+		$('#myModal').modal('show');
+		 }); 
 	// var loader = function() {
 	// 	setTimeout(function() { 
 	// 		if($('#ftco-loader').length > 0) {
